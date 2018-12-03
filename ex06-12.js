@@ -1,13 +1,9 @@
 function ThreeSecChange() { 
 //関数imgchange1()を3000ミリ秒間隔で呼び出す 
   setInterval("imgchange12()",3000); } 
-  
-
-function imgchange12() {
+  function imgchange12() {
   document.getElementById('logo2').src = './image2/bulbon.gif';
 }
-
-
 //      <input type="button" value="画像の変更" onclick="imgchange1();">
 //  <img src='./image2/josai.png' id="logo" alt="Josai Logo">
 

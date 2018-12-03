@@ -4,7 +4,6 @@ function sayhello66() {
 // var who = 'world';
   alert('Hello, ' + who66 + '!');
 } 
-
 function taro() {
   who66 = '太郎' ;
 } 
