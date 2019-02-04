@@ -2,19 +2,74 @@
 <html lang="ja"> 
 <head>
  <meta charset="UTF-8">
- <title>前期末プロジェクト</title>
- <link rel="stylesheet"href="zen.css">
+ <title>後期最終プロジェクト</title>
+ <link rel="stylesheet"href="nantoka.css">
+ <script src="hogehoge.js"></script> 
+ <script src="zen.js"></script> 
+ <script src="kou.js"></script> 
+ <link rel="next" href="zen.html">
+  
+  
   </head> 
 <body>
   
   <h1>自分を紹介してみた</h1>
-  <p><a href="zen.html"><img src="image2/DSC_0010.JPG"width="400" height="300"</a></p>
-  <h1>この四人の中でどれでしょう。。？</h1>
+ <div id="back">
+   <input type="button" value="変更後3秒でまた戻る"
+          onclick="ChangeImageAndBack();">
+   <img src='./image2/DSC_0010.JPG' id="img13" alt="honmono.JPG" class="imagechange" width="400" height="300">
+  </div>
+  <h2>この四人の中でどれでしょう。。？</h2>
+  
+   <table border="1"width="900" height="100">
+   <tr>
+    <th>質問</th>
+    <th>答え</th>
+  </tr>
+  <tr>
+    <td>好きな食べ物</td>
+    <td>ラーメン</td>
+  </tr>
+  <tr>
+    <td>好きなこと</td>
+    <td>古着巡り</td>
+  </tr>
+　  <td>好きな歌手</td>
+  　<td>防弾少年団</td>
+  </tr>
+  <td>好きなYoutuber</td>
+  <td>東海オンエア</td>
+ </table>
+  <h1>下にオススメサイトまとめてみたので是非！！</h1>
+  
+  <a href="https://tabelog.com/saitama/A1101/A110102/11032446/"><input type="button" value="ラーメン" onclick="history.back()"></a>
+  <a href="https://aumo.jp/articles/18059"><input type="button" value="古着巡り" onclick="history.back()"></a>
+　<a href="http://oyasumisleep.hatenablog.com/entry/2018/01/05/140635"><input type="button" value="防弾少年団" onclick="history.back()"></a>
+  <a href="https://www.youtube.com/channel/UCutJqz56653xV2wwSvut_hQ"><input type="button" value="東海オンエア" onclick="history.back()"></a>
+
+  
+ </script>
+<body>
+<h1>Quiz</h1>
+<h2>この中で一番好きなのは？。</h2>
+<h3>ヒント<a href="https://www.youtube.com/watch?v=pBuZEGYXA6E">
+  　　　　<img src="/image2/bts.jpg"  
+           width="233" height="165" border="0" /></a></h3>
+<input type="radio" id="ans1-1" name="anser" value="ans1-1"/>ラーメン<br/>
+<input type="radio" id="ans1-2" name="anser" value="ans1-2"/>古着巡り<br/>
+<input type="radio" id="ans1-3" name="anser" value="ans1-3"/>防弾少年団<br/>
+<input type="radio" id="ans1-4" name="anser" value="ans1-4"/>東海オンエア<br/>
+
+
+<input type="button" value="答え合わせ" onclick="ansercheck()" />
+
+   <div style="width:50%; margin:0 auto; text-align:center;">
+  <p style="padding:1em; background:#cccccc; text-align: center; width:100%;"></p>
+   </div>
+   <div style="width:50%; margin:0 auto; text-align:center;">
+   </div>
+  
   
    
-  
-  </td></tr> 
- </table> 
-  
 </body>
 </html>
